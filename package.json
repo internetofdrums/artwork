@@ -1,0 +1,24 @@
+{
+  "name": "internetofdrums-artwork",
+  "version": "1.0.0",
+  "description": "All artwork made for the Internet of Drums project.",
+  "scripts": {
+    "test": "./node_modules/svgo/bin/svgo -o - -q *.svg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/internetofdrums/artwork.git"
+  },
+  "author": "Piet van Dongen",
+  "contributors": [
+    "Piet van Dongen"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/internetofdrums/artwork/issues"
+  },
+  "homepage": "https://github.com/internetofdrums/artwork#readme",
+  "devDependencies": {
+    "svgo": "^1.0.4"
+  }
+}
